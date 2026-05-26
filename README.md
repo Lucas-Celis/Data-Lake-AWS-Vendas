@@ -25,7 +25,7 @@ O fluxo de dados foi desenhado para seguir boas práticas de Engenharia de Dados
 * **Organização:** Particionamento de dados por categoria de clientes (Silver, Gold e Platinum).
 
 ## 🗃️ Bucket S3
-![Estrutura do bucket](images/s3 2.png)
+![Estrutura do bucket](images/s32.png)
 
 ## 📊 Visualização do Job (Fluxo)
 ![Fluxo de ETL](images/job.png)
@@ -36,7 +36,7 @@ Os dados desnormalizados permitem consultas rápidas e intuitivas:
 SELECT * FROM vendas_datalake.datalake 
 WHERE estado = 'SC';
 ```
-![Resultado da consulta](images/athena 2.png)
+![Resultado da consulta](images/athena2.png)
 
 ## 📈 Resultados
 O pipeline demonstrou a capacidade de transformar dados brutos não estruturados em informações prontas para análise de negócio, utilizando a escalabilidade da nuvem AWS.
